@@ -1,0 +1,26 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  width: 80%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.DialogContent{
+  background-color: #121212;
+}

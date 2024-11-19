@@ -1,0 +1,26 @@
+.header-container {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-title {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .add-task-button {
+    background-color: #f50057;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-task-button:hover {
+    background-color: #c51162;
+  }
+  

@@ -1,0 +1,53 @@
+.task-list {
+  margin-top: 20px;
+}
+
+.task-header, .task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid #555;
+  font-weight: bold;
+}
+
+.task-header {
+  border-bottom: 2px solid #555;
+}
+
+.task-item {
+  border-bottom: 1px solid #333;
+  transition: transform 0.3s ease-in-out;
+}
+
+.task-cell {
+  padding: 10px;
+}
+
+.task-cell.task-name {
+  width: 50%;
+}
+
+.task-cell.status-cell {
+  flex: 0 0 auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.status-select {
+  color: #ffffff;
+  background-color: #333;
+  border: 20px;
+}
+
+.status-select .MuiSelect-select {
+  padding: 10px;
+}
+
+.status-menu-item {
+  color: #ffffff;
+  background-color: #333;
+}
+
+.status-menu-item:hover {
+  background-color: #555;
+}

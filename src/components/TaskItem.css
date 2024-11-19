@@ -1,0 +1,40 @@
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #333;
+  transition: transform 0.3s ease-in-out;
+}
+
+.task-cell {
+  padding: 10px;
+}
+
+.task-cell:first-child {
+  width: 50%;
+}
+
+.task-cell:nth-child(4) {
+  flex: 0 0 auto;
+  width: fit-content;
+  text-align: left;
+}
+
+.status-select {
+  color: #ffffff;
+  background-color: #333;
+  border: none;
+}
+
+.status-select .MuiSelect-select {
+  padding: 10px;
+}
+
+.status-menu-item {
+  color: #ffffff;
+  background-color: #333;
+}
+
+.status-menu-item:hover {
+  background-color: #555;
+}
